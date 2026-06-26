@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #c1fbc1
+}
+
+.header{
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    color: #174617;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+.header p{
+    letter-spacing: 2px;
+    font-size: .9em;
+    font-family: sans-serif;
+    color: rgb(170, 170, 170);
+}
+.box{
+    margin-top: 20px;
+    height: 70vh;
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+    width: 60%;
+    border: 1px solid rgb(103, 172, 6);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.257);
+    backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+ 
+.box-header{
+    margin-top: 25px;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-btn-1,.nav-btn-2,.nav-btn-3{
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+}
+.nav-btn-1{
+    color: #174617;
+}
+.progress{
+    width: 100%;
+    height: 5px;
+}
+
+.progress-fill{
+    width: 33%;
+    height: 100%;
+    background-color: #174617;
+}
+
+.placeholder{
+    font-weight: 400;
+}
+
+.action-btn{
+    display: flex;
+    margin: 20px 20px 0px 20px;
+    justify-content: space-between;
+}
+.action-btn a{
+    text-decoration: none;
+}
+.back-btn{
+    padding: 10px 25px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: gray;
+}
+.continue-btn{
+    padding: 10px 25px;
+    background-color: rgb(39, 255, 19);;
+    border: 1px solid rgb(39, 255, 19);
+    border-radius: 10px;
+    color: white;
+}
